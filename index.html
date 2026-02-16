@@ -1,108 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Satellite Radio Support | Call for Assistance</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sirixum Call | 24/7 Support</title>
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f2f4f7;
-      color: #1a1a1a;
-    }
-    .wrapper {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
-    .card {
-      background: #ffffff;
-      border-radius: 10px;
-      padding: 35px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
-    }
-    h1 {
-      margin-top: 0;
-      color: #0b3a5a;
-      font-size: 30px;
-    }
-    .sub {
-      font-size: 18px;
-      margin-bottom: 25px;
-    }
-    .call-btn {
-      display: inline-block;
-      background: #1d7edb;
-      color: #ffffff;
-      text-decoration: none;
-      font-size: 22px;
-      padding: 18px 28px;
-      border-radius: 8px;
-      margin: 20px 0;
-    }
-    .call-btn:hover {
-      background: #155fa5;
-    }
-    ul {
-      margin-top: 25px;
-      padding-left: 20px;
-    }
-    li {
-      margin-bottom: 12px;
-      font-size: 16px;
-    }
-    .disclaimer {
-      margin-top: 30px;
-      font-size: 12px;
-      color: #666;
-      line-height: 1.5;
-    }
-    .badge {
-      display: inline-block;
-      background: #e6eef6;
-      color: #0b3a5a;
-      padding: 6px 12px;
-      border-radius: 20px;
-      font-size: 14px;
-      margin-bottom: 10px;
-    }
-  </style>
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    background: linear-gradient(135deg, #0d6efd, #6610f2);
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.btn-call {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: 600;
+    padding: 15px 35px;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.btn-call:hover {
+    background-color: #ffca2c;
+    transform: scale(1.05);
+}
+
+.features {
+    padding: 80px 0;
+}
+
+.feature-box {
+    padding: 30px;
+    border-radius: 15px;
+    transition: 0.3s;
+    background: #f8f9fa;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+}
+
+.cta-section {
+    background: #111;
+    color: white;
+    padding: 70px 0;
+    text-align: center;
+}
+
+.sticky-call {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #198754;
+    padding: 15px;
+    text-align: center;
+    display: none;
+    z-index: 9999;
+}
+
+.sticky-call a {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+footer {
+    padding: 30px 0;
+    text-align: center;
+    background: #f1f1f1;
+}
+</style>
 </head>
 
 <body>
-  <div class="wrapper">
-    <div class="card">
 
-      <span class="badge">Satellite Radio Help Line</span>
+<!-- Hero Section -->
+<section class="hero">
+<div class="container">
+    <h1>Need Immediate Assistance?</h1>
+    <p>Sirixum Call provides 24/7 expert customer support. Fast, friendly & reliable service.</p>
+    <a href="tel:+18556185396" class="btn btn-call mt-4">📞 Call Now: +1 (855) 618-5396</a>
+</div>
+</section>
 
-      <h1>Satellite Radio Customer Support</h1>
-      <p class="sub">
-        Call for assistance with satellite radio subscriptions, activation issues,
-        signal problems, billing questions, and account support.
-      </p>
+<!-- Features -->
+<section class="features text-center">
+<div class="container">
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="feature-box">
+                <h4>24/7 Availability</h4>
+                <p>Our team is always ready to assist you anytime, anywhere.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature-box">
+                <h4>Expert Support</h4>
+                <p>Certified professionals ready to solve your concerns quickly.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature-box">
+                <h4>Fast Response</h4>
+                <p>No waiting time. Immediate assistance guaranteed.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
 
-      <a class="call-btn" href="tel:+18776266658">
-        📞 Call Support: +1 (877) 626-6658
-      </a>
+<!-- CTA Section -->
+<section class="cta-section">
+<div class="container">
+    <h2>Talk to a Live Representative Now</h2>
+    <p class="mt-3">Don’t wait — get instant help today.</p>
+    <a href="tel:+18556185396" class="btn btn-warning btn-lg mt-3">Call +1 (855) 618-5396</a>
+</div>
+</section>
 
-      <ul>
-        <li>✔ Subscription & account assistance</li>
-        <li>✔ Radio activation & refresh help</li>
-        <li>✔ Signal & reception troubleshooting</li>
-        <li>✔ Vehicle & device compatibility support</li>
-        <li>✔ Billing & payment questions</li>
-      </ul>
+<footer>
+    © 2026 Sirixum Call. All Rights Reserved.
+</footer>
 
-      <div class="disclaimer">
-        This website is an independent informational service and is not affiliated with,
-        endorsed by, or sponsored by any satellite radio brand or company.
-        Calls are directed to the official service provider based on customer request.
-        All trademarks remain the property of their respective owners.
-      </div>
+<!-- Sticky Mobile Call Bar -->
+<div class="sticky-call" id="mobileCallBar">
+    <a href="tel:+18556185396">📞 Tap to Call +1 (855) 618-5396</a>
+</div>
 
+<!-- Call Popup Modal -->
+<div class="modal fade" id="callModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content text-center p-4">
+      <h4>Need Help Right Now?</h4>
+      <p>Call our support team for immediate assistance.</p>
+      <a href="tel:+18556185396" class="btn btn-success btn-lg mt-2">📞 Call +1 (855) 618-5396</a>
+      <button type="button" class="btn btn-link mt-3" data-bs-dismiss="modal">Maybe Later</button>
     </div>
   </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+// Detect mobile device
+function isMobile() {
+    return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    if (isMobile()) {
+        // Show sticky bottom call bar
+        document.getElementById("mobileCallBar").style.display = "block";
+
+        // Show popup after 3 seconds
+        setTimeout(function(){
+            var callModal = new bootstrap.Modal(document.getElementById('callModal'));
+            callModal.show();
+        }, 3000);
+    }
+});
+</script>
+
 </body>
 </html>
